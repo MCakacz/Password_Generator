@@ -42,12 +42,6 @@ root = tk.Tk()
 root.title("Generator Hasła")
 root.geometry("500x300")
 
-icon_path = "resources/icon.ico"
-icon = tk.PhotoImage(file=icon_path)
-
-# Przypisanie ikony do okna
-root.iconphoto(True, icon)
-
 # Zmienna wynikowa - definiuj po utworzeniu głównego okna
 result = tk.StringVar()
 
